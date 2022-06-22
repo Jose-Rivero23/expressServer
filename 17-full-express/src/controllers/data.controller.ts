@@ -2,7 +2,7 @@
 import { Request, Response } from 'express';
 import { Connector } from '../models/conector.js';
 
-export class dataController {
+export class DataController {
     constructor(public dataModel: Connector<any>) {}
     getAllController = async (req: Request, resp: Response) => {
         req;
